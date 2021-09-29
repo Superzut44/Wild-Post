@@ -3,11 +3,13 @@
    margin: 0;
    padding: 0;
  }
+
  
 .navbar {
     position: fixed;
     top: 0;
  }
+
 
 .navbar-container {
    position: fixed;
@@ -23,9 +25,31 @@
    
 }
 
-   
+
 
  @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap); */
+
+=======
+.h1Title  {
+    font-size: 6vw;
+    margin: auto;
+    text-align: center;
+    text-decoration: 3px solid underline;
+    padding-bottom: 1rem;
+}
+.imageALaUne {
+    width: 100%;
+    height: auto;
+}
+.h2ALaUne {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.pALaUne {
+    margin-top: 0;
+    float: right;
+}
 
  body {
     background-size: cover;
@@ -36,18 +60,41 @@
     background-position-y: -100px;
 
 }
+  
 .formContainer {
-    position: relative;
-    left: 700px;
-    max-width: 500px;
-    bottom: -80px;
-    font-family: 'Bebas Neue', cursive;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black,
-    1px 0 black, 0 -1px black;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+max-width: 200px;
+margin: auto;
 }
 
-button {
+form div{
+    margin: 1rem;
+}
+
+#submitz{
+    width: 90px;
     display: flex;
     justify-content: center;
 } 
+
+
+label{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    padding: 0.3rem;
+}
+
+.logo{
+    width: 90px;
+    height: 50px;
+}
+
+.footer{
+    display: block;
+    justify-content: space-around;
+    background-color: #ED6C6D;
+    padding: 1rem;
+}

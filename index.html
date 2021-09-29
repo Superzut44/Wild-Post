@@ -26,10 +26,11 @@
   
     <!-- article à la une -->
     <main>
-        <article class="articleLaUne"></article>
-            <img class="imageInterview" src="Images/PhotoDeGroupe.jpg" alt="Titre de la une">
-             <h1 class="h1LaUne">C'est la rentrée ...</h1>
-             <p>Cette année, ce sont vingt-deux élèves qui ont fait leur rentrée au sein de la WILD CODE SCHOOL.
+        <article class="articleALaUne"></article>
+            <h1 class="h1Title">THE WILD POST</h1>
+            <img class="imageALaUne" src="Images/PhotoDeGroupe.jpg" alt="Titre de la une">
+            <h2 class="h2ALaUne">C'est la rentrée ...</h1>
+            <p class="pALaUne">Cette année, ce sont vingt-deux élèves qui ont fait leur rentrée au sein de la WILD CODE SCHOOL.
                 Nous venons tous d'horizons différents. Certains sortent de l'école, d’autres sont en reconversion professionnelle et il y en a qui baignent dans l'univers du code depuis longtemps.
                 Notre but commun ? Devenir développeur web. 
                 L'ère du numérique ne fait que progresser d'année en année. 
@@ -37,7 +38,7 @@
                 Voici notre promo  : Alexandre, Amandine, Bilal, James, Tarik, Antoine, Justine, Kévin, Théo D., Théo L., Xavier, Clément, Corentin, Luis, Marvin, Mauricia, Robin, Jordan, Marion, Mario, Noelie, Sophie.
                 Nous sommes accompagnés par deux formateurs : 
                 Marjorie, ew-wildeuse et Romain, formateur web.
-                </p>
+            </p>
         </article>
     </main>
     <!-- fin article à la une -->
@@ -146,27 +147,29 @@
         <!-- fin contient notre interview -->
 
     <!--Formulaire Début-->
-    <form>
-        <div class="formContainer">
+    <form class="formContainer">
+        <div>
           <label for="formName">Nom et Prénom</label>
-          <input type="name"  id="formName" aria-describedby="emailHelp" placeholder="Catherine de Midi six">
+          <input type="text"  id="formName" placeholder="Catherine de Midi six">
         </div>
-        <div class="formContainer">
+        <div>
           <label for="formMail">Adresse email</label>
           <input type="email" id="formMail" placeholder="MonEmail@wild.com">
-        </div><br>
-        <div class="formContainer">
+        </div>
+        <div>
             <label for="formTextarea">Votre message</label>
-            <textarea id="formTextarea" rows="3" placeholder="Message"></textarea>
-        </div><br>
-        <button type="submit" class="formContainer" id="submitz">Envoyer</button>
-        <script type="text/javascript" src="script.js"></script>
+            <textarea id="formTextarea" rows="3" placeholder="Bonjour, je vous contact pour..."></textarea>
+        </div>
+        <button type="submit" id="submitz">Envoyer</button>
+        <script src="script.js"></script>
     </form>
     <!--Formulaire fin-->    
 
   
  <!--footer begin here-->
+ <div class="footer">
     <footer>
+
       <img
         src="C:\Users\ellee\quests\Wild-Post\logo wild.png"
         alt="logo wild"
@@ -188,9 +191,23 @@
       /></a>
       <p>
         Crée par Antoine Leclabart, Justine Petit, Kevin Bardy, Théo drouet et
+
+      <a href="https://www.youtube.com/c/WildCodeSchool4ever">
+        <img class="logo"  src="logo youtube.png"
+          alt="logo youtube"/></a>
+      <a href="https://twitter.com/WCS_GRE">
+       <img class="logo" src="logo twitter.png"
+          alt="logo twitter"/></a>
+      <a href="https://www.linkedin.com/school/wild-code-school/">
+        <img class="logo"  src="logo linkedin.png"
+          alt="logo linkedin"/></a>
+      <p class="createur">
+        créer par Antoine Leclabart, Justine Petit, Kevin Bardy, Théo drouet et
+
         Xavier Chavaudrey
       </p>
     </footer>
+</div>
         <!--footer en here-->
 </body>
 </html>
