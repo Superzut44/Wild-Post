@@ -4,7 +4,6 @@
    padding: 0;
  }
 
-
 .navbar-container {
    display: flex;
    flex-direction: row;
@@ -15,9 +14,7 @@
    list-style-type: none ;
 }
 
-/* @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap); */
-
-/* body {
+ body {
     background-size: cover;
     background-repeat: no-repeat;   
     width: 100vw;
@@ -40,4 +37,7 @@
 button {
     display: flex;
     justify-content: center;
-} */
+} 
+.footer{
+    display: grid;
+}
