@@ -4,7 +4,15 @@
    padding: 0;
  }
 
+ 
+.navbar {
+    position: fixed;
+    top: 0;
+ }
+
+
 .navbar-container {
+   position: fixed;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
@@ -12,8 +20,16 @@
    font-size: 2rem;
    background-color: #ED6C6D;
    list-style-type: none ;
+   color: #fff7f0;
+   width: 100%;
+   
 }
 
+
+
+ @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap); */
+
+=======
 .h1Title  {
     font-size: 6vw;
     margin: auto;
@@ -34,6 +50,7 @@
     margin-top: 0;
     float: right;
 }
+
  body {
     background-size: cover;
     background-repeat: no-repeat;   
@@ -61,6 +78,7 @@ form div{
     display: flex;
     justify-content: center;
 } 
+
 
 label{
     display: flex;
