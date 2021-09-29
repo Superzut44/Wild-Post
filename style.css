@@ -1,3 +1,11 @@
+.imageALaUne {
+    width: 100%;
+    height: auto;
+}
+.h1ALaUne {
+    text-align: center;
+}
+  
 .formContainer {
 display: flex;
 justify-content: space-around;
