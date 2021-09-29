@@ -1,3 +1,20 @@
+
+* {
+   margin: 0;
+   padding: 0;
+ }
+
+
+.navbar-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 2rem;
+   background-color: #ED6C6D;
+   list-style-type: none ;
+}
+
 /* @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap); */
 
 /* body {
