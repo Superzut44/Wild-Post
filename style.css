@@ -3,15 +3,114 @@ body{
     max-width: 100%;
 }
 
-navbar-container {
+* {
+   margin: 0;
+   padding: 0;
+ }
+
+.navbar {
+    position: fixed;
+    top: 0;
+ }
+
+.navbar-container {
+   position: fixed;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 2rem;
+   background-color: #ED6C6D;
+   list-style-type: none ;
+   color: #fff7f0;
+   width: 100%;
+   
+}
+
+.h1Title  {
+    font-size: 6vw;
+    margin: auto;
+    text-align: center;
+    text-decoration: 3px solid underline;
+    padding-bottom: 1rem;
+}
+.imageALaUne {
+    width: 100%;
+    height: auto;
+}
+.h2ALaUne {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.pALaUne {
+    margin-top: 0;
+    float: right;
+}
+
+
+@media only screen and (max-width: 812px) {
+
+body {
+    min-width: 100%;
+    height: 100%;
+}
+
+.caroussel {
+    width: 100%;
+    background-color: #ED6C6D;
+    margin-top: 3rem;
+}
+
+.box-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 2rem;
-    background-color: #ED6C6D;
-    list-style-type: none ;
- }
+    width: 100%;
+    min-height: 80vh;
+    overflow-x: scroll;
+    padding: 1rem;
+}
+
+.article-container {
+    max-height: 75vh;
+    min-width: 85%;
+    background-color: #FFF7F0;
+    margin: 0.4rem;
+    padding: 0.7rem;
+    box-shadow: 10px 10px 5px #f54f4f;  
+}
+
+
+.caroussel-image {
+    width: 100%;
+    box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.paragraph {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+ body {
+    background-size: cover;
+    background-repeat: no-repeat;   
+    width: 100vw;
+     background-color: rgb(253, 253, 253);
+	font-family: 'Bebas Neue', cursive;
+    background-position-y: -100px;
+
+.caroussel-image {
+    min-width: 90%;
+    min-height: 20vh;
+}
+}
+
 
 .formContainer {
 display: flex;
@@ -36,8 +135,10 @@ form div{
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-bottom: 2rem;
+
 }
+
+
 
 label{
     display: flex;
@@ -45,4 +146,18 @@ label{
     justify-content: center;
     padding: 0.3rem;
 }
+
+
+.logo{
+    width: 90px;
+    height: 50px;
+}
+
+.footer{
+    display: block;
+    justify-content: space-around;
+    background-color: #ED6C6D;
+    padding: 1rem;
+}
+
 
