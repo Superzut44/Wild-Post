@@ -1,3 +1,4 @@
+html,
 
 * {
    margin: 0;
@@ -25,11 +26,6 @@
    
 }
 
-
-
- @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap); */
-
-=======
 .h1Title  {
     font-size: 6vw;
     margin: auto;
@@ -51,6 +47,55 @@
     float: right;
 }
 
+
+@media only screen and (max-width: 812px) {
+
+body {
+    min-width: 100%;
+    height: 100%;
+}
+
+.caroussel {
+    width: 100%;
+    background-color: #ED6C6D;
+    margin-top: 3rem;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 80vh;
+    overflow-x: scroll;
+    padding: 1rem;
+}
+
+.article-container {
+    max-height: 75vh;
+    min-width: 85%;
+    background-color: #FFF7F0;
+    margin: 0.4rem;
+    padding: 0.7rem;
+    box-shadow: 10px 10px 5px #f54f4f;  
+}
+
+
+.caroussel-image {
+    width: 100%;
+    box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.paragraph {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
  body {
     background-size: cover;
     background-repeat: no-repeat;   
@@ -59,8 +104,12 @@
 	font-family: 'Bebas Neue', cursive;
     background-position-y: -100px;
 
+.caroussel-image {
+    min-width: 90%;
+    min-height: 20vh;
 }
-  
+}
+
 .formContainer {
 display: flex;
 justify-content: space-around;
@@ -77,6 +126,9 @@ form div{
     width: 90px;
     display: flex;
     justify-content: center;
+
+}
+
 } 
 
 
@@ -98,3 +150,4 @@ label{
     background-color: #ED6C6D;
     padding: 1rem;
 }
+
