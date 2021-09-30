@@ -53,6 +53,9 @@ body{
 
 .pALaUne {
     margin-top: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
 
 }
 
@@ -106,6 +109,21 @@ label{
     margin-top: 1rem;
 }
 
+.articleQl{
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#logoQL{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+
 @media only screen and (max-width: 812px) {
   
 .navbar {
@@ -126,7 +144,7 @@ label{
   }
 
  #logo {
-   height: 5vh;
+   height: 4vh;
  }
  .caroussel {
     background-image: url(Assets/wild-background.png)   ;
