@@ -1,5 +1,7 @@
 body{
     background-color: #FFF7F0;
+  max-width: 100%;
+
 }
 
 * {
@@ -11,7 +13,6 @@ body{
     position: sticky;
     top: 0;
     }
-
 
 .navbar-container {
    position: sticky;
@@ -76,6 +77,7 @@ body{
     margin-top: 3rem;
 }
 
+
 .box-container {
     display: flex;
     flex-direction: row;
@@ -112,6 +114,13 @@ body{
 
 body {
 
+
+.articleALaUne {
+    margin: 1rem;
+    margin-top: 8rem;
+    padding-top: -2rem;
+}
+
 .h1Title  {
     font-size: 6vw;
     margin: auto;
@@ -130,8 +139,10 @@ body {
 }
 .pALaUne {
     margin-top: 0;
-    float: right;
+    text-align: justify;
+    text-justify: inter-word;
 }
+
 
  body {
 
@@ -146,6 +157,58 @@ body {
     min-width: 90%;
     min-height: 20vh;
 }
+
+
+@media only screen and (max-width: 812px) {
+
+.caroussel {
+    width: 100%;
+    background-color: #ED6C6D;
+    margin-top: 3rem;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 80vh;
+    overflow-x: scroll;
+    padding: 1rem;
+}
+
+.article-container {
+    max-height: 75vh;
+    min-width: 85%;
+    background-color: #FFF7F0;
+    margin: 0.4rem;
+    padding: 0.7rem;
+    box-shadow: 10px 10px 5px #f54f4f;  
+}
+
+
+.caroussel-image {
+    width: 100%;
+    box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.paragraph {
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.caroussel-image {
+    min-width: 90%;
+    min-height: 20vh;
+}
+}
+
+
 
 .formContainer {
 display: flex;
@@ -167,11 +230,13 @@ form div{
 }
 
 
+
 }
 
 form div{
     margin: 1rem;
 }
+
 
 
 #submitz{
@@ -182,6 +247,7 @@ form div{
     margin: auto;
 
 }
+
 
 
 } 
@@ -199,6 +265,9 @@ label{
 
 
     margin-left: 40px;
+
+    justify-content: center;
+
     padding: 0.3rem;
 }
 
@@ -214,6 +283,7 @@ label{
     background-color: #ED6C6D;
     padding: 1rem;
 }
+
 
 
 .h2 {
