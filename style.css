@@ -61,9 +61,6 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: justify;
-    
-    
-
 }
 
 .formContainer {
@@ -98,9 +95,8 @@ label{
     padding: 0.3rem;
 }
 
-
 .logo{
-    height: 50px;
+    height: 40px;
 }
 .logo_container{
     display: flex;
@@ -109,11 +105,12 @@ label{
 
 .footer{
     background-color: #ED6C6D;
-    padding: 1rem;
+    padding: 0.5rem;
     margin-top: 1rem;
 }
+
 .createur{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 
