@@ -48,6 +48,18 @@ body{
     float: right;
 }
 
+.logo{
+    width: 90px;
+    height: 50px;
+}
+
+.footer{
+    display: block;
+    justify-content: space-around;
+    background-color: #ED6C6D;
+    padding: 1rem;
+}
+
 
 @media only screen and (max-width: 812px) {
 
@@ -139,16 +151,5 @@ label{
 }
 
 
-.logo{
-    width: 90px;
-    height: 50px;
-}
-
-.footer{
-    display: block;
-    justify-content: space-around;
-    background-color: #ED6C6D;
-    padding: 1rem;
-}
 
 
