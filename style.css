@@ -40,6 +40,15 @@ body{
     width: 100%;
 }
 
+
+
+.wild-post-logo {
+    display: inline-block;
+    height: 10vh;
+}
+
+
+
 .h1Title  {
     font-size: 6vw;
     margin: auto;
@@ -61,24 +70,43 @@ body{
 
 .pALaUne {
     margin-top: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
 
 }
 
 .formContainer {
 display: flex;
-justify-content: space-around;
+justify-content: center;
 flex-direction: column;
 max-width: 200px;
 margin: auto;
 }
 
 form div{
-    margin: 1rem;
+    margin: 0.7rem;
 }
 
-.h2contact{
+.h2Contact{
+    color: #ED6C6D;
+   
     text-align: center;
     margin: auto;
+    margin-top: 2rem;
+    padding-top: 10%;
+    border-top: solid 2px #ED6C6D;
+}
+
+input {
+    padding: 0.3rem;
+    border-radius: 10%;
+}
+
+#formTextarea{
+    border-radius: 3%;
+    padding: 0.3rem;
+    border: solid 1.5px black;
 }
 
 #submitz{
@@ -86,7 +114,17 @@ form div{
     display: flex;
     justify-content: center;
     margin: auto;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #ED6C6D;
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+}
 
+#submitz:hover{
+    background-color: white;
+    color: #ED6C6D;
 }
 
 label{
@@ -96,23 +134,44 @@ label{
     padding: 0.3rem;
 }
 
-
 .logo{
-    height: 50px;
+    height: 40px;
+}
+.logo_container{
+    display: flex;
+    justify-content: space-around;
+
 }
 .logo_container{
     display: flex;
     justify-content: space-around;
 }
 
+.articleQl{
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#logoQL{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
 .footer{
     background-color: #ED6C6D;
-    padding: 1rem;
+    padding: 0.5rem;
     margin-top: 1rem;
 }
+
 .createur{
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
+
+
 
 @media only screen and (max-width: 812px) {
   
@@ -134,12 +193,13 @@ label{
   }
 
  #logo {
-   height: 5vh;
+   height: 4vh;
  }
  .caroussel {
     background-image: url(Assets/wild-background.png)   ;
     margin-top: 3rem;
 }
+
 
 .box-container {
     display: flex;
@@ -148,6 +208,7 @@ label{
     overflow-x: scroll;
     padding: 1rem;
 }
+
 
 .article-container {
     max-height: 70vh;
@@ -187,9 +248,16 @@ label{
 }
 
 
+
 .caroussel-image {
     min-width: 90%;
     min-height: 20vh;
 }
 }
 
+
+.caroussel-image {
+    min-width: 90%;
+    min-height: 20vh;
+}
+}
