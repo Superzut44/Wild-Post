@@ -1,6 +1,5 @@
 body{
     background-color: #FFF7F0;
-    max-width: 100%;
 }
 
 * {
@@ -9,12 +8,12 @@ body{
  }
 
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
- }
+    }
 
 .navbar-container {
-   position: fixed;
+   position: sticky;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
@@ -23,9 +22,7 @@ body{
    background-color: #ED6C6D;
    list-style-type: none ;
    color: #fff7f0;
-   width: 100%;
-   
-}
+   }
 
 .h1Title  {
     font-size: 6vw;
@@ -51,13 +48,29 @@ body{
 
 @media only screen and (max-width: 812px) {
 
-body {
-    min-width: 100%;
-    height: 100%;
-}
+    .navbar {
+        position: sticky;
+        top: 0;
+        }
+    
+    .navbar-container {
+       position: sticky;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: center;
+       font-size: 1rem;
+       background-color: #ED6C6D;
+       list-style-type: none ;
+       color: #fff7f0;
+       }
+
+       #logo {
+           height: 5vh;
+        
+       }
 
 .caroussel {
-    width: 100%;
     background-color: #ED6C6D;
     margin-top: 3rem;
 }
@@ -65,14 +78,12 @@ body {
 .box-container {
     display: flex;
     flex-direction: row;
-    width: 100%;
     min-height: 80vh;
     overflow-x: scroll;
     padding: 1rem;
 }
 
 .article-container {
-    max-height: 75vh;
     min-width: 85%;
     background-color: #FFF7F0;
     margin: 0.4rem;
@@ -97,20 +108,18 @@ body {
     margin-top: 1rem;
 }
 
- body {
+body {
     background-size: cover;
     background-repeat: no-repeat;   
-    width: 100vw;
-     background-color: rgb(253, 253, 253);
+    background-color: rgb(253, 253, 253);
 	font-family: 'Bebas Neue', cursive;
     background-position-y: -100px;
+}
 
 .caroussel-image {
     min-width: 90%;
     min-height: 20vh;
 }
-}
-
 
 .formContainer {
 display: flex;
@@ -160,4 +169,7 @@ label{
     padding: 1rem;
 }
 
+.h2 {
 
+    size
+}
