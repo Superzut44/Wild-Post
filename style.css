@@ -1,7 +1,13 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
 @font-face{
     font-family: 'Roboto';
     src: url("Font/Roboto-Regular.ttf") format("truetype");
 }
+
 
 body{
     background-color: #FFF7F0;
@@ -9,11 +15,6 @@ body{
     font-family: 'Roboto';
     max-width: 100%;
 }
-
-* {
-   margin: 0;
-   padding: 0;
- }
 
 .navbar {
     position: sticky;
@@ -39,67 +40,72 @@ body{
     text-decoration: 3px solid underline;
     padding-bottom: 1rem;
 }
+
 .imageALaUne {
     width: 100%;
     height: auto;
 }
+
 .h2ALaUne {
     text-align: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
 .pALaUne {
     margin-top: 0;
 
 }
 
 .formContainer {
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+max-width: 200px;
+margin: auto;
+}
+
+form div{
+    margin: 1rem;
+}
+
+.h2contact{
+    text-align: center;
+    margin: auto;
+}
+
+#submitz{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem;
+}
+
+
+.logo{
+    height: 50px;
+}
+.logo_container{
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
-    max-width: 100%;
-    margin: auto;
-    }
-    
-    form div{
-        margin: 1rem;
-    }
-    
-    .h2contact{
-        text-align: center;
-        margin: auto;
-    }
-    
-    #submitz{
-        width: 90px;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-    
-    }
-    
-    
-    
-    label{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0.3rem;
-    }
-    
-    
-    .logo{
-        width: 90px;
-        height: 50px;
-    }
-    
-    .footer{
-        display: block;
-        justify-content: space-around;
-        background-color: #ED6C6D;
-        padding: 1rem;
-    }
-    
+}
+
+.footer{
+    background-color: #ED6C6D;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.createur{
+    margin-top: 1rem;
+}
 
 @media only screen and (max-width: 812px) {
   
@@ -168,9 +174,10 @@ body{
     width: 290px;
 }
 
-=======
+
 .caroussel-image {
     min-width: 90%;
     min-height: 20vh;
 }
 }
+
