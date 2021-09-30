@@ -33,6 +33,13 @@ body{
    color: #fff7f0;
    }
 
+
+.wild-post-logo {
+    display: inline-block;
+    height: 10vh;
+}
+
+
 .h1Title  {
     font-size: 6vw;
     margin: auto;
@@ -92,9 +99,13 @@ label{
     padding: 0.3rem;
 }
 
-
 .logo{
-    height: 50px;
+    height: 40px;
+}
+.logo_container{
+    display: flex;
+    justify-content: space-around;
+
 }
 .logo_container{
     display: flex;
@@ -117,6 +128,51 @@ label{
 
 .footer{
     background-color: #ED6C6D;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.createur{
+    margin-top: 0.5rem;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 812px) {
+  
+.navbar {
+   position: sticky;
+   top: 0;
+ }
+    
+ .navbar-container {
+   position: sticky;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 1rem;
+   background-color: #ED6C6D;
+   list-style-type: none ;
+   color: #fff7f0;
+  }
+
+ #logo {
+   height: 5vh;
+ }
+ .caroussel {
+    background-image: url(Assets/wild-background.png)   ;
+    margin-top: 3rem;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 70vh;
+    overflow-x: scroll;
     padding: 1rem;
     margin-top: 1rem;
 }
@@ -154,6 +210,7 @@ label{
     margin-top: 3rem;
 }
 
+
 .box-container {
     display: flex;
     flex-direction: row;
@@ -161,6 +218,7 @@ label{
     overflow-x: scroll;
     padding: 1rem;
 }
+
 
 .article-container {
     max-height: 65vh;
@@ -195,9 +253,16 @@ label{
 }
 
 
+
 .caroussel-image {
     min-width: 90%;
     min-height: 20vh;
 }
 }
 
+
+.caroussel-image {
+    min-width: 90%;
+    min-height: 20vh;
+}
+}
