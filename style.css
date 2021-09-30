@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
   }
+
 @font-face{
     font-family: 'Roboto';
     src: url("Font/Roboto-Regular.ttf") format("truetype");
@@ -33,11 +34,19 @@ body{
    color: #fff7f0;
    }
 
+.wild-post-logo {
+    display: inline-block;
+    height: 10vh;
+    width: 100%;
+}
+
+
 
 .wild-post-logo {
     display: inline-block;
     height: 10vh;
 }
+
 
 
 .h1Title  {
@@ -164,51 +173,6 @@ label{
 
 
 
-
-
-
-@media only screen and (max-width: 812px) {
-  
-.navbar {
-   position: sticky;
-   top: 0;
- }
-    
- .navbar-container {
-   position: sticky;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   align-items: center;
-   font-size: 1rem;
-   background-color: #ED6C6D;
-   list-style-type: none ;
-   color: #fff7f0;
-  }
-
- #logo {
-   height: 5vh;
- }
- .caroussel {
-    background-image: url(Assets/wild-background.png)   ;
-    margin-top: 3rem;
-}
-
-.box-container {
-    display: flex;
-    flex-direction: row;
-    min-height: 70vh;
-    overflow-x: scroll;
-    padding: 1rem;
-    margin-top: 1rem;
-}
-.createur{
-    margin-top: 1rem;
-}
-
-
-
-
 @media only screen and (max-width: 812px) {
   
 .navbar {
@@ -240,14 +204,14 @@ label{
 .box-container {
     display: flex;
     flex-direction: row;
-    min-height: 70vh;
+    min-height: 75vh;
     overflow-x: scroll;
     padding: 1rem;
 }
 
 
 .article-container {
-    max-height: 65vh;
+    max-height: 70vh;
     min-width: 85%;
     background-color: #fffbf7;
     margin: 0.4rem;
@@ -272,6 +236,11 @@ label{
 .paragraph {
     text-align: justify;
     margin-top: 1rem;
+}
+
+.name-bold {
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .imageCaroussel {
