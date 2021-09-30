@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -100,15 +101,6 @@ label{
     justify-content: space-around;
 }
 
-.footer{
-    background-color: #ED6C6D;
-    padding: 1rem;
-    margin-top: 1rem;
-}
-.createur{
-    margin-top: 1rem;
-}
-
 .articleQl{
     text-align: justify;
     margin-left: 1rem;
@@ -122,6 +114,17 @@ label{
     display: flex;
     justify-content: center;
 }
+
+.footer{
+    background-color: #ED6C6D;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.createur{
+    margin-top: 1rem;
+}
+
+
 
 
 @media only screen and (max-width: 812px) {
@@ -197,3 +200,4 @@ label{
     min-height: 20vh;
 }
 }
+
