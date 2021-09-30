@@ -69,19 +69,35 @@ body{
 
 .formContainer {
 display: flex;
-justify-content: space-around;
+justify-content: center;
 flex-direction: column;
 max-width: 200px;
 margin: auto;
 }
 
 form div{
-    margin: 1rem;
+    margin: 0.7rem;
 }
 
-.h2contact{
+.h2Contact{
+    color: #ED6C6D;
+   
     text-align: center;
     margin: auto;
+    margin-top: 2rem;
+    padding-top: 10%;
+    border-top: solid 2px #ED6C6D;
+}
+
+input {
+    padding: 0.3rem;
+    border-radius: 10%;
+}
+
+#formTextarea{
+    border-radius: 3%;
+    padding: 0.3rem;
+    border: solid 1.5px black;
 }
 
 #submitz{
@@ -89,7 +105,17 @@ form div{
     display: flex;
     justify-content: center;
     margin: auto;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #ED6C6D;
+    color: white;
+    font-weight: bold;
+    border-radius: 10%;
+}
 
+#submitz:hover{
+    background-color: white;
+    color: #ED6C6D;
 }
 
 label{
