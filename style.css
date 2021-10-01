@@ -80,30 +80,27 @@ body{
 
 }
 .articleInterview {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
     margin: 0.5rem;
     padding: 0.5rem;
-    border: 8px solid #ED6C6D;
+    border: 5px solid #ED6C6D;
+    border-radius: 10px 30px 30px 30px;
 }
 .titreInterview {
     height: auto;
-    grid-column:1 / 4;
-    grid-row: 1;
+    padding-bottom: 0.5rem;
+    text-align: center;
 }
 .imageInterview {
-    width: 100%;
+    width: 40vw;
     height: auto;
-    grid-column: 1 / 2;
-    grid-row: 2;
+    float: left;
+    margin-right: 1rem;
 }
 .textInterview {
     grid-column: 2 / 4;
     grid-row: 2;
     text-align: justify;
 }
-
 
 .formContainer {
 display: flex;
@@ -264,6 +261,8 @@ label{
 .caroussel-image {
     width: 100%;
     box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
+    min-width: 90%;
+    min-height: 20vh;
 }
 
 .article {
@@ -284,19 +283,5 @@ label{
 
 .imageCaroussel {
     width: 290px;
-}
-
-
-
-.caroussel-image {
-    min-width: 90%;
-    min-height: 20vh;
-}
-}
-
-
-.caroussel-image {
-    min-width: 90%;
-    min-height: 20vh;
 }
 }
