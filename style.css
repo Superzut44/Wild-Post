@@ -9,6 +9,10 @@
     src: url("Font/Roboto-Regular.ttf") format("truetype");
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
 body{
     background-color: #FFF7F0;
@@ -97,6 +101,7 @@ body{
 .textInterview {
     grid-column: 2 / 4;
     grid-row: 2;
+    text-align: justify;
 }
 
 
@@ -106,6 +111,7 @@ justify-content: center;
 flex-direction: column;
 max-width: 200px;
 margin: auto;
+margin-bottom: 3rem;
 }
 
 form div{
@@ -158,8 +164,9 @@ label{
     padding: 0.3rem;
 }
 
+
 .logo{
-    height: 40px;
+    height: 20px;
 }
 .logo_container{
     display: flex;
@@ -169,6 +176,12 @@ label{
 .logo_container{
     display: flex;
     justify-content: space-around;
+}
+
+.TitreQL{
+    margin-top: 5vh; 
+    display: flex;
+    justify-content: center;
 }
 
 .articleQl{
@@ -179,20 +192,22 @@ label{
 
 #logoQL{
     margin-top: 2rem;
-    margin-left: 5rem;
+    margin-left: 2.5rem;
     margin-bottom: 2rem;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
 
 .footer{
     background-color: #ED6C6D;
-    padding: 0.5rem;
-    margin-top: 1rem;
+    padding: 0.9rem;
+    margin-top: 0.5rem;
 }
 
 .createur{
-    margin-top: 0.5rem;
+    margin-top: 0.2rem;
+    font-size: 0.5rem;
 }
 
 
@@ -210,7 +225,7 @@ label{
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   font-size: 1rem;
+   font-size: 0.8rem;
    background-color: #ED6C6D;
    list-style-type: none ;
    color: #fff7f0;
