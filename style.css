@@ -201,7 +201,9 @@ label{
 }
 
 
-@media only screen and (max-width: 812px) {
+@media only screen and (min-width: 812px)
+ /* debut version mobile de antoine et kevin */
+ {
   
 .navbar {
    position: sticky;
@@ -237,7 +239,6 @@ label{
     padding: 1rem;
 }
 
-
 .article-container {
     max-height: 70vh;
     min-width: 85%;
@@ -248,7 +249,6 @@ label{
     border: solid 5px #e84344;
     border-radius: 1%;  
 }
-
 
 .caroussel-image {
     width: 100%;
@@ -275,5 +275,27 @@ label{
 
 .imageCaroussel {
     width: 290px;
+}
+/* fin de la partie mobile de antoine et kevin */
+.footer{
+    background-color: #ED6C6D;
+}
+.logo{
+    height: 40px;
+    margin: 0.5rem;
+}
+
+.logo_container{
+    display: flex;
+    justify-content:flex-start;
+}
+.createur{
+    font-size: 1rem;
+}
+.link_linkedin:hover{
+background-color: gray;
+}
+.link_linkedin{
+    color: indigo;
 }
 }
