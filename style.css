@@ -181,7 +181,7 @@ label{
     align-items: center;
     width: 80%;
 }
-
+/* debut de la partie footer */
 .footer{
     background-color: #ED6C6D;
     padding: 0.9rem;
@@ -199,7 +199,7 @@ label{
     display: flex;
     justify-content: space-around;
 }
-
+/* fin de la partie footer */
 
 @media only screen and (min-width: 812px)
  /* debut version mobile de antoine et kevin */
@@ -277,6 +277,8 @@ label{
     width: 290px;
 }
 /* fin de la partie mobile de antoine et kevin */
+
+/* debut de la partie pc du footer */
 .footer{
     background-color: #ED6C6D;
 }
@@ -298,4 +300,5 @@ background-color: gray;
 .link_linkedin{
     color: indigo;
 }
+/* fin de la partie pc du footer */
 }
