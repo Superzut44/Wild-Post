@@ -16,7 +16,7 @@ a {
 
 body{
     background-color: #FFF7F0;
-    max-width: 100%;
+    /* max-width: 100%;     en doublon            */
     font-family: 'Roboto';
     max-width: 100%;
 }
@@ -60,7 +60,7 @@ body{
     text-decoration: 3px solid underline;
     padding-bottom: 1rem;
 }
-
+/* start ALaUne */
 .imageALaUne {
     width: 100%;
     height: auto;
@@ -79,6 +79,9 @@ body{
     text-align: justify;
 
 }
+/* end ALaUne */
+
+/* start Interview */
 .articleInterview {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -101,7 +104,32 @@ body{
     grid-row: 2;
     text-align: justify;
 }
-
+@media only screen and (min-width: 800px) {
+    .imageInterview {
+        width: 30vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .articleInterview {
+        margin: 10rem;
+        padding: 1rem;
+        border: 5px solid #ED6C6D;
+        border-radius: 10px 30px 30px 30px;
+    }
+    .titreInterview {
+        width: max-content;
+        height: auto;
+        padding-bottom: 0.5rem;
+        text-align: center;
+    }
+    .imageInterview {
+        width: 20vw;
+        height: auto;
+        float: none;
+        margin-right: 1rem;
+    }
+}
+/* end Interview */
 .formContainer {
 display: flex;
 justify-content: center;
