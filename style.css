@@ -161,20 +161,6 @@ label{
     padding: 0.3rem;
 }
 
-
-.logo{
-    height: 20px;
-}
-.logo_container{
-    display: flex;
-    justify-content: space-around;
-
-}
-.logo_container{
-    display: flex;
-    justify-content: space-around;
-}
-
 .TitreQL{
     margin-top: 5vh; 
     display: flex;
@@ -201,12 +187,18 @@ label{
     padding: 0.9rem;
     margin-top: 0.5rem;
 }
-
+.logo{
+    height: 20px;
+}
 .createur{
     margin-top: 0.2rem;
     font-size: 0.5rem;
 }
 
+.logo_container{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 @media only screen and (max-width: 812px) {
