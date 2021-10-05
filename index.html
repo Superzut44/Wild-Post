@@ -105,7 +105,7 @@
                             Par exemple, Robin nous présentait la semaine dernière Copilot Github, 
                             une extension assistante intelligente utilisant le système Codex 
                             d'OpenAI pour assister le développeur dans son code. 
-                            Pour en savoir plus cliquez <a hreff ="https://copilot.github.com/">ici</a>.
+                            Pour en savoir plus cliquez <a href ="https://copilot.github.com/">ici</a>.
                     </p>
             </div>
         </div>
@@ -133,33 +133,28 @@
     
     <!-- fin article ecosysteme -->
     
-    
-    
-    
-        <!--Formulaire Début-->
+    <!--Formulaire Début-->
 
     <h2 class="h2Contact" id="contact">Contactez-nous</h2>
 
-    <form class="formContainer">
+    <form class="formContainer"
+            action="https://formspree.io/f/xyylvdrk"
+            method="POST">
         <div>
-          <label class="labelForm" for="formName">Nom</label>
-          <input type="text"  id="formName" placeholder="Dupont">
-        </div>
-        <div>
-            <label class="labelForm" for="formName">Prénom</label>
-            <input type="text"  id="formSurname" placeholder="Michel">
+            <label class="labelForm" for="formName">Nom complet</label>
+            <input id="formName" type="text" name="name" placeholder="Dupont Michel">
         </div>
         <div>
-          <label class="labelForm" for="formMail">Adresse email</label>
-          <input type="email" id="formMail" placeholder="MonEmail@wild.com">
+            <label for="formMail" class="labelForm">Email:</label>
+            <input type="email" id="formMail" name="_replyto" placeholder="MonEmail@wild.com">
         </div>
         <div>
-            <label class="labelForm" for="formTextarea">Votre message</label>
-            <textarea id="formTextarea" rows="4" cols="21" placeholder="Bonjour, je vous contacte pour..."></textarea>
+            <label for="formTextarea" class="labelForm"> Votre Message:</label>
+            <textarea name="message" id="formTextarea" rows="4" cols="21" placeholder="Bonjour, je vous contacte pour..."></textarea>
         </div>
-        <button type="submit" class="formContainer" id="submitz">Envoyer</button>
-        </div>
+        <button class="formContainer" id="submitz" type="submit">Envoyer</button>
     </form>
+ 
     <!--Formulaire fin-->    
 
  <!--footer begin here-->
@@ -184,7 +179,6 @@
     </footer>
 </div>
         <!--footer en here-->
-        <script src="script.js"></script>
 </body>
 </html>
 
