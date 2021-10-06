@@ -80,6 +80,11 @@ body {
     transition: background-color .3s, color .3s;
 }
 
+
+.ancre {
+    height: 0;
+}
+
 #logo {
     height: 2.5rem;
     position: absolute;
@@ -118,9 +123,12 @@ body {
 
 /* start Wild Shorts */
 
+.main{
+    margin-bottom: 3rem;
+}
+
 .caroussel {
     background-image: url(Assets/wild-background.png)   ;
-    margin-top: 3rem;
 }
  
  
