@@ -96,10 +96,11 @@ body {
     padding-bottom: 1rem;
 }
 /* start ALaUne */
+
 .imageALaUne {
     width: 100%;
-    height: auto;
 }
+
 .h1ALaUne {
     text-align: center;
     margin-top: 0.5rem;
@@ -339,98 +340,71 @@ form div{
 
 /* Navbar */
 
-.navbar {
-    top: 0;
-    bottom: unset;
+    .navbar {
+        top: 0;
+        bottom: unset;
 
-}
+    }
 
-.navbar-container {
-    font-size: 2rem;
-    height: 5rem;
-}
+    .navbar-container {
+        font-size: 2rem;
+        height: 5rem;
+    }
 
-.navbar-link {
-    padding-top: 21px;
-    padding-bottom: 21px;
-}
+    .navbar-link {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
 
-.navbar-link:hover {
-    background-color: white;
-    color: #ED6C6D;
-}
+    .navbar-link:hover {
+        background-color: white;
+        color: #ED6C6D;
+    }
 
-#logo {
-    height: 4.9rem;
-}
+    #logo {
+        height: 4.9rem;
+    }
 
-body {
-    margin-bottom: 0;
-}
+    body {
+        margin-bottom: 0;
+    }
 
-.ancre {
-    height: 1.8rem;
-}
+    .ancre {
+        height: 1.8rem;
+    }
 
 /* Logo */
 
 .wild-post-logo-holder {
     display: none;
 }
-    
-/* Wild shorts */
 
-.caroussel {
-    background-image: url(Assets/wild-background.png);
-    margin-top: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* à la une */
+
+.imageALaUne {
+    display: block;
+    align-self: center;
+    width: 65vw;
+    box-shadow: 10px 10px 5px rgb(241, 228, 216);
 }
-    
-.box-container {
+
+.articleALaUne {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow-x: auto;
-    width: 80%;
+    padding-top: 5rem;
 }
 
-.article-container {
-    display: flex;
-    flex-direction: row;
-    background-color: #FFF7F0;
-    margin-top: 3vh;
+.h1ALaUne {
+    font-size: 2.5rem;
+    padding: 3rem 2rem 2rem 2rem;
 }
 
-.caroussel-image {
-    width: 100%;
-    box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
-    min-width: 90%;
-    min-height: 20vh;
-}
-
-#article-container-tem {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    background-color: #FFF7F0;
-    margin-top: 3vh;
+.pALaUne {
+    padding: 1rem 7rem 1rem 7rem;
 }
     
-    .h2ALaUne {
-        font-size: 3.5rem;
-    }
-
-    .pALaUne {
-        padding-left: 6rem;
-        padding-right: 6rem;
-        margin-top: 3rem;
-        font-size: 1.2rem;
-    }
-
-        
-    /* Wild shorts */
+/* Wild shorts */
 
     .caroussel {
         background-image: url(Assets/wild-background.png);
@@ -496,26 +470,6 @@ body {
         width: 600px;
         height: 200px;
         align-self: center;
-    }
-        
-  
-    /* QL article */
-
-    #logoQL {
-        display: block;
-        align-self: center;
-    }
-
-    .articleQLHolder {
-        display: flex;
-        flex-direction: row-reverse;
-        padding: 3rem;
-    }
-
-    .articleQl {
-        display: inline-block;
-        align-self: center;
-        padding: 3rem;
     }
 
 
