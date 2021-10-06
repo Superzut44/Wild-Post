@@ -218,7 +218,8 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 200px;
+    width: 70%;
+    min-width: 200px;
     margin: auto;
     margin-bottom: 3rem;
 }
@@ -229,23 +230,26 @@ form div{
 
 .h2Contact{
     color: #ED6C6D;
-   
     text-align: center;
     margin: auto;
     margin-top: 2rem;
-    padding-top: 10%;
+    padding-top: 2rem;
     border-top: solid 2px #ED6C6D;
 }
 
-input {
+.inputForm  {
     padding: 0.3rem;
     border-radius: 10%;
+    width: 100%;
+    height: 1.5rem;
 }
 
 #formTextarea{
     border-radius: 3%;
     padding: 0.3rem;
     border: solid 1.5px black;
+    resize: none;
+    width: 100%;
 }
 
 #submitz{
@@ -259,6 +263,7 @@ input {
     color: white;
     font-weight: bold;
     border-radius: 10%;
+    transition: background-color .4s;
 }
 
 #submitz:hover{
@@ -266,7 +271,7 @@ input {
     color: #ED6C6D;
 }
 
-label{
+.labelForm{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -522,19 +527,16 @@ label{
         flex-direction: column;
 
     }
-  
-  /* form */
 
-    .h2Contact{
-        color: #ED6C6D;
-       
-        text-align: center;
-        margin: auto;
-        margin-top: 2rem;
-        padding-top: 10%;
-        border-top: solid 3rem #ED6C6D;
-    }
-   
+    /*@media form */
+
+    .formContainer *{
+        font-size: 1.5rem;
+        }
+        .h2Contact{
+            font-size: 2rem;
+        }
+  
     /* debut de la partie pc du footer */
 
     .footer{
