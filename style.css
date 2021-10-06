@@ -30,6 +30,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 body {
     margin-bottom: 35px;
 }
@@ -76,10 +77,13 @@ body {
     transform: translateY(-50%);
     padding-top: 12.5px;
     padding-bottom: 12.5px;
+    transition: background-color .3s, color .3s;
 }
 
+
+
 #logo {
-    height: 4vh;
+    height: 2.5rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -307,36 +311,38 @@ label{
 /* Navbar */
 
 .navbar {
-    position: sticky;
     top: 0;
+    bottom: unset;
+
+}
+
+.navbar-container {
+    font-size: 2rem;
+    height: 5rem;
+}
+
+.navbar-link {
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.navbar-link:hover {
+    background-color: white;
+    color: #ED6C6D;
 }
 
 #logo {
-    height: 8vh;
-}
-    
-.navbar-container {
-    position: sticky;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 2rem;
-    background-color: #ED6C6D;
-    list-style-type: none;
-    color: #fff7f0;
+    height: 4.9rem;
 }
 
+body {
+    margin-bottom: 0;
+}
+    
 /* Logo */
 
 .wild-post-logo-holder {
-    background-color: #ED6C6D;
-    display: flex;
-    justify-content: center;
-}
-.wild-post-logo {
-    height: 30vh;
-    width: auto;
+    display: none;
 }
     
 /* Wild shorts */
