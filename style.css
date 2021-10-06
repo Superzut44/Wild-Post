@@ -231,20 +231,6 @@ label{
     padding: 0.3rem;
 }
 
-
-.logo{
-    height: 20px;
-}
-.logo_container{
-    display: flex;
-    justify-content: space-around;
-
-}
-.logo_container{
-    display: flex;
-    justify-content: space-around;
-}
-
 .TitreQL{
     margin-top: 5vh; 
     display: flex;
@@ -265,18 +251,27 @@ label{
     align-items: center;
     width: 80%;
 }
-
+/* debut de la partie footer */
 .footer{
     background-color: #ED6C6D;
     padding: 0.9rem;
     margin-top: 0.5rem;
 }
-
+.logo{
+    height: 20px;
+}
 .createur{
     margin-top: 0.2rem;
     font-size: 0.5rem;
 }
 
+.logo_container{
+    display: flex;
+    justify-content: space-around;
+}
+/* fin de la partie footer */
+
+  
 /* mediaquery big displays */
 
 @media only screen and (min-width: 812px) {
@@ -333,13 +328,19 @@ label{
     overflow-x: ;
     width: 80%;
 }
-    
+
 .article-container {
     display: flex;
     flex-direction: row;
     background-color: #FFF7F0;
     margin-top: 3vh;
 }
+
+.caroussel-image {
+    width: 100%;
+    box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
+    min-width: 90%;
+    min-height: 20vh;
     
 #article-container-tem {
     display: flex;
@@ -351,6 +352,7 @@ label{
     
 .imageCaroussel {
     width: 400px;
+
 }
 
 .imageCarousselTem {
@@ -384,10 +386,35 @@ label{
     align-self: center;
     padding: 3rem;
 }
+  
+/* debut de la partie pc du footer */
+.footer{
+    background-color: #ED6C6D;
+}
+.logo{
+    height: 40px;
+    margin-left: 1rem;
+}
+
+.logo_container{
+    display: flex;
+    justify-content:flex-start;
+}
+.createur{
+    font-size: 1rem;
+}
+.link_linkedin:hover{
+background-color: gray;
+}
+.link_linkedin{
+    color: indigo;
+}
+/* fin de la partie pc du footer */
 
 .textQL {
     display: flex;
     flex-direction: column;
+
 }
 
 }
