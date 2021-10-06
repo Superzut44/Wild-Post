@@ -280,15 +280,15 @@ label{
 /* Footer */
 .footer{
     background-color: #ED6C6D;
-    padding: 0.9rem;
+    padding: 0.3rem;
     margin-top: 0.5rem;
 }
 .logo{
-    height: 20px;
+    height: 8vw;
 }
 .createur{
     margin-top: 0.2rem;
-    font-size: 0.5rem;
+    font-size: 0.1rem;
 }
 
 .logo_container{
