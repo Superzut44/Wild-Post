@@ -89,8 +89,7 @@ body{
 
 /* end ALaUne */
 
-/* start Interview */
-
+/* start Wild Shorts */
 
 .caroussel {
     background-image: url(Assets/wild-background.png)   ;
@@ -155,6 +154,9 @@ body{
      width: 290px;
  }
 
+ 
+/* Interview */
+
 .articleInterview {
     margin: 0.5rem;
     padding: 0.5rem;
@@ -203,13 +205,47 @@ body{
     }
 }
 /* end Interview */
+
+/* article QL */
+
+.articleQLHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 4rem;
+    border-top: solid 6vh #ED6C6D;
+}
+
+#logoQL {
+    display: block;
+    align-self: center;
+    width: 40vh;
+    box-shadow: 1vh 1vh 1vh 0 #ED6C6D ;
+}
+
+.TitreQL{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+}
+
+.articleQl{
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* Form */
+
 .formContainer {
-display: flex;
-justify-content: center;
-flex-direction: column;
-max-width: 200px;
-margin: auto;
-margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 200px;
+    margin: auto;
+    margin-bottom: 3rem;
 }
 
 form div{
@@ -262,26 +298,6 @@ label{
     padding: 0.3rem;
 }
 
-.TitreQL{
-    margin-top: 5vh; 
-    display: flex;
-    justify-content: center;
-}
-
-.articleQl{
-    text-align: justify;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-#logoQL{
-    margin-top: 2rem;
-    margin-left: 2.5rem;
-    margin-bottom: 2rem;
-    display: flex;
-    align-items: center;
-    width: 80%;
-}
 /* debut de la partie footer */
 .footer{
     background-color: #ED6C6D;
@@ -345,6 +361,7 @@ label{
     /* à la une */
 
     .group-holder {
+        background-image: url(\Images\UneBackground.png) ;
         display: flex;
         justify-content: center;
         padding: 2rem;
@@ -353,8 +370,19 @@ label{
     .imageALaUne {
         display: inline;
         align-self: center;
-        width: 95vh;
+        width: 140vh;
         height: auto;
+    }
+
+    .h2ALaUne {
+        font-size: 3.5rem;
+    }
+
+    .pALaUne {
+        padding-left: 6rem;
+        padding-right: 6rem;
+        margin-top: 3rem;
+        font-size: 1.2rem;
     }
         
     /* Wild shorts */
@@ -427,7 +455,8 @@ label{
         display: flex;
         flex-direction: row-reverse;
         padding: 3rem;
-        padding-top: 5rem;
+        padding-top: 4rem;
+        border-top: solid 6vh #ED6C6D;
     }
 
     .articleQl {
@@ -436,8 +465,15 @@ label{
         padding: 3rem;
         padding-top: 5rem;
     }
+
+    .textQL {
+        display: flex;
+        flex-direction: column;
+
+    }
     
     /* debut de la partie pc du footer */
+
     .footer{
         background-color: #ED6C6D;
     }
@@ -461,9 +497,15 @@ label{
     }
     /* fin de la partie pc du footer */
 
-    .textQL {
-        display: flex;
-        flex-direction: column;
+    /* form */
 
+    .h2Contact{
+        color: #ED6C6D;
+       
+        text-align: center;
+        margin: auto;
+        margin-top: 2rem;
+        padding-top: 10%;
+        border-top: solid 3rem #ED6C6D;
     }
 }
