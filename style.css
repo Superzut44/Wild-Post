@@ -72,21 +72,20 @@ body{
     width: 100%;
     height: auto;
 }
-
-.h2ALaUne {
+.h1ALaUne {
     text-align: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
-
 .pALaUne {
     margin-top: 0;
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: justify;
-
 }
-
+.pALaUne::first-letter {
+    font-size: 1.5rem;
+}
 /* end ALaUne */
 
 /* start Wild Shorts */
@@ -154,14 +153,13 @@ body{
      width: 290px;
  }
 
- 
-/* Interview */
+ /* start Interview */
 
 .articleInterview {
     margin: 0.5rem;
     padding: 0.5rem;
-    border: 5px solid #ED6C6D;
-    border-radius: 10px 30px 30px 30px;
+    border: 4px solid #ED6C6D;
+    border-radius: 30px 30px 30px 30px;
 }
 .titreInterview {
     height: auto;
@@ -175,36 +173,13 @@ body{
     margin-right: 1rem;
 }
 .textInterview {
-    grid-column: 2 / 4;
-    grid-row: 2;
     text-align: justify;
 }
-@media only screen and (min-width: 800px) {
-    .imageInterview {
-        width: 30vw;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    .articleInterview {
-        margin: 10rem;
-        padding: 1rem;
-        border: 5px solid #ED6C6D;
-        border-radius: 10px 30px 30px 30px;
-    }
-    .titreInterview {
-        width: max-content;
-        height: auto;
-        padding-bottom: 0.5rem;
-        text-align: center;
-    }
-    .imageInterview {
-        width: 20vw;
-        height: auto;
-        float: none;
-        margin-right: 1rem;
-    }
+.textInterview:first-letter {
+    font-size: 1.5rem;
 }
 /* end Interview */
+
 
 /* article QL */
 
@@ -358,14 +333,16 @@ label{
         width: auto;
     }
 
-    /* à la une */
 
-    .group-holder {
+    /* à la une */
+  
+.group-holder {
         background-image: url(\Images\UneBackground.png) ;
         display: flex;
         justify-content: center;
         padding: 2rem;
     }
+
 
     .imageALaUne {
         display: inline;
@@ -373,7 +350,7 @@ label{
         width: 140vh;
         height: auto;
     }
-
+    
     .h2ALaUne {
         font-size: 3.5rem;
     }
@@ -384,6 +361,7 @@ label{
         margin-top: 3rem;
         font-size: 1.2rem;
     }
+
         
     /* Wild shorts */
 
@@ -442,9 +420,44 @@ label{
         padding: 2rem;
     }
 
-    /* QL article */
 
-    #logoQL {
+    
+ 
+/* start Interview @media*/
+
+.articleInterview {
+    margin: 8rem;
+    padding: 1rem;
+    border: 4px solid #ED6C6D;
+    border-radius: 30px 30px 30px 30px;
+    height: 45vh;
+}
+.titreInterview {
+    font-size: 2rem;
+    width: max-content;
+    height: auto;
+    padding-left: 3rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.imageInterview {
+    height: 40vh;
+    width: auto;
+    margin-right: 1rem;
+}
+.textInterview, .imageInterview {
+    font-size: 1.25rem;
+    vertical-align:middle;
+}
+
+/* QL article */
+
+.articleQl {
+    display: inline-block;
+    align-self: center;
+    padding: 3rem;
+}
+#logoQL {
         display: block;
         align-self: center;
         width: 80vh;
@@ -471,7 +484,19 @@ label{
         flex-direction: column;
 
     }
-    
+  
+  /* form */
+
+    .h2Contact{
+        color: #ED6C6D;
+       
+        text-align: center;
+        margin: auto;
+        margin-top: 2rem;
+        padding-top: 10%;
+        border-top: solid 3rem #ED6C6D;
+    }
+   
     /* debut de la partie pc du footer */
 
     .footer{
@@ -497,15 +522,5 @@ label{
     }
     /* fin de la partie pc du footer */
 
-    /* form */
-
-    .h2Contact{
-        color: #ED6C6D;
-       
-        text-align: center;
-        margin: auto;
-        margin-top: 2rem;
-        padding-top: 10%;
-        border-top: solid 3rem #ED6C6D;
-    }
+    
 }
