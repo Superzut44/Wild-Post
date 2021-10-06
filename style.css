@@ -32,7 +32,7 @@ body{
 }
 
 body {
-    margin-bottom: 35px;
+    margin-bottom: 2.5rem;
 }
 
 .wild-post-logo {
@@ -326,7 +326,7 @@ form div{
 }
 .createur{
     margin-top: 0.2rem;
-    font-size: 0.1rem;
+    font-size: 1rem;
 }
 
 .logo_container{
@@ -569,9 +569,7 @@ form div{
         display: flex;
         justify-content:flex-start;
     }
-    .createur{
-        font-size: 1rem;
-    }
+    
     .link_linkedin:hover{
     background-color: gray;
     }
