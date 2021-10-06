@@ -10,28 +10,25 @@
 </head>
 <body>
 <!-- navbar-->
-    <nav class="navbar">
-        <ul class="navbar-container">
-            <li><a href="#Actu">L'Actu</a></li>
-            <li><a href="#shorts">Wild Shorts</a></li>
-            <li><a href="#home"><img id="logo" src="Assets/logo wild.jpg" alt="logo wild"/></a></li>
-            <li><a href="#interview">Interview</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+      <nav class="navbar">
+           <ul class="navbar-container">
+               <li class="navbar-item"><a class="navbar-link" href="#actu">L'Actu</a></li>
+               <li class="navbar-item"><a class="navbar-link" href="#shorts">Wild Shorts</a></li>
+               <li class="navbar-item"><img id="logo" src="Assets/logo wild.jpg" alt="logo wild"/></li>
+               <li class="navbar-item"><a class="navbar-link" href="#interview">Interview</a></li>
+               <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+           </ul>
+      </nav>
   <!-- fin navbar-->
     <!-- article à la une -->
-    <main>
-        <article class="articleALaUne" id="Actu">
+    <main class="main">
+        <div class="ancre" id="actu"></div>
+        <article class="articleALaUne">
             <div class="wild-post-logo-holder">
-                <img src="Assets/The.png" class= "wild-post-logo" alt="logo de la wild">
+                <img src="Assets/The.png" class= "wild-post-logo">
             </div>
-
-            <div class="group-holder">
-                <img class="imageALaUne" src="Images/PhotoDeGroupe.jpg" alt="Titre de la une">
-            </div>
-            <h2 class="h2ALaUne">C'est la rentrée !</h1>
-
+            <img class="imageALaUne" src="Images/PhotoDeGroupe.jpg" alt="Titre de la une">
+            <h1 class="h1ALaUne">C'est la rentrée !</h1>
             <p class="pALaUne">Cette année, ce sont vingt-deux élèves qui ont fait leur rentrée au sein de la WILD CODE SCHOOL.
                 Nous venons tous d'horizons différents. Certains sortent de l'école, d’autres sont en reconversion professionnelle et il y en a qui baignent dans l'univers du code depuis longtemps.
                 Notre but commun ? Devenir développeur web. 
@@ -46,9 +43,10 @@
             </p>
         </article>
     </main>
+    <div class="ancre" id="shorts"></div>
     <!-- fin article à la une -->
     <!-- Caroussel petits articles début-->
-    <section class= "caroussel" id="shorts">
+    <section class= "caroussel">
         <div class= "box-container">
             <div class= "article-container">
             <img src= "Assets/Semaine.png" alt="Un emploi du temps de Wilder" class="imageCaroussel">
@@ -130,9 +128,10 @@
     </section>
 <!-- Caroussel petits articles fin-->
 
-
-<!-- contient notre interview -->
-    <article class="articleInterview" id="interview">
+    <!-- contient notre interview -->
+    <div class="ancre" id="interview"></div>
+    
+    <article class="articleInterview">
         <h1 class="titreInterview">L'interview du mois</h1>
         <img class="imageInterview" src="/Images/Justine.png" alt="Justine, ex-wildeuse">
         <p class="textInterview">Qui de mieux pour vous  parler de la wild qu’une alumni ? Justine, développeuse front-end chez Da Team nous fait part de son expérience à la Wild Code School de Reims.
@@ -154,9 +153,9 @@
     
 <!-- fin article ecosysteme -->
     
-<!--Formulaire Début-->
-
-<h2 class="h2Contact" id="contact">Contactez-nous</h2>
+    <!--Formulaire Début-->
+<div class="ancre" id="contact"></div>
+    <h2 class="h2Contact" >Contactez-nous</h2>
 
 <form class="formContainer"
         action="https://formspree.io/f/xyylvdrk"
