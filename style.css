@@ -311,7 +311,7 @@ label{
 
 #logo {
     height: 8vh;
-  }
+}
     
 .navbar-container {
     position: sticky;
@@ -340,7 +340,7 @@ label{
 /* Wild shorts */
 
 .caroussel {
-    background-image: url(Assets/wild-background.png)   ;
+    background-image: url(Assets/wild-background.png);
     margin-top: 3rem;
     display: flex;
     align-items: center;
@@ -367,6 +367,7 @@ label{
     box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
     min-width: 90%;
     min-height: 20vh;
+}
     
 #article-container-tem {
     display: flex;
@@ -442,5 +443,4 @@ background-color: gray;
     flex-direction: column;
 
 }
-
 }
