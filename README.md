@@ -8,10 +8,12 @@ Projet realisé lors des semaines trois et quatre de notre formation de developp
 ## Authors
 
 - [@Antoine Leclabart](https://github.com/AntoineLeclabart)
+- [Théo Labetowiez](https://github.com/Cyl07)
 - [@Justine Petit](https://github.com/jp-justine)
 - [@Kevin Bardy](https://github.com/kbardy)
 - [@Théo Drouet](https://github.com/JagerTheo)
 - [@Xavier Chavaudrey](https://github.com/Superzut44)
+
   
 
   ## Color Reference
