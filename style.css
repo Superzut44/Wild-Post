@@ -287,7 +287,7 @@ label{
 
 #logo {
     height: 8vh;
-  }
+}
     
 .navbar-container {
     position: sticky;
@@ -316,7 +316,7 @@ label{
 /* Wild shorts */
 
 .caroussel {
-    background-image: url(Assets/wild-background.png)   ;
+    background-image: url(Assets/wild-background.png);
     margin-top: 3rem;
     display: flex;
     align-items: center;
@@ -444,5 +444,4 @@ background-color: gray;
     flex-direction: column;
 
 }
-
 }
