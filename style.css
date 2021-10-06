@@ -119,7 +119,7 @@ body{
  
  .caroussel-image {
      width: 100%;
-     box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
+     box-shadow: 10px 10px 5px rgb(241, 228, 216)0;
      min-width: 90%;
      min-height: 20vh;
  }
@@ -273,32 +273,38 @@ label{
     padding: 0.3rem;
 }
 
-/* debut de la partie footer */
+/* Footer */
 .footer{
     background-color: #ED6C6D;
-    padding: 0.9rem;
+    padding: 0.3rem;
     margin-top: 0.5rem;
 }
 .logo{
-    height: 20px;
+    height: 8vw;
 }
 .createur{
     margin-top: 0.2rem;
-    font-size: 0.5rem;
+    font-size: 0.1rem;
 }
 
 .logo_container{
     display: flex;
     justify-content: space-around;
 }
-/* fin de la partie footer */
+.link_linkedin:hover{
+    background-color: gray;
+    }
+.link_linkedin{
+    color: indigo;
+    }
+/* Footer */
 
   
 /* mediaquery big displays */
 
 @media only screen and (min-width: 812px) {
 
-/* Navbar */
+    /* Navbar */
 
     .navbar {
         position: sticky;
@@ -336,7 +342,7 @@ label{
 
     /* à la une */
   
-.group-holder {
+    .group-holder {
         background-image: url(\Images\UneBackground.png) ;
         display: flex;
         justify-content: center;
@@ -419,10 +425,47 @@ label{
         flex-direction: column;
         padding: 2rem;
     }
-
-
     
- 
+
+nter;
+        background-color: #FFF7F0;
+        margin-top: 3vh;
+    }
+        
+    .imageCaroussel {
+        width: 400px;
+
+
+    }
+
+    .imageCarousselTem {
+        display: inline-block; 
+        width: 600px;
+        height: 200px;
+        align-self: center;
+    }
+        
+  
+    /* QL article */
+
+    #logoQL {
+        display: block;
+        align-self: center;
+    }
+
+    .articleQLHolder {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 3rem;
+    }
+
+    .articleQl {
+        display: inline-block;
+        align-self: center;
+        padding: 3rem;
+    }
+
+
 /* start Interview @media*/
 
 .articleInterview {
@@ -432,6 +475,7 @@ label{
     border-radius: 30px 30px 30px 30px;
     height: 45vh;
 }
+  
 .titreInterview {
     font-size: 2rem;
     width: max-content;
@@ -440,11 +484,13 @@ label{
     padding-bottom: 0.5rem;
     text-align: center;
 }
+  
 .imageInterview {
     height: 40vh;
     width: auto;
     margin-right: 1rem;
 }
+  
 .textInterview, .imageInterview {
     font-size: 1.25rem;
     vertical-align:middle;
@@ -521,6 +567,4 @@ label{
         color: indigo;
     }
     /* fin de la partie pc du footer */
-
-    
 }
