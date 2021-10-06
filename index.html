@@ -12,7 +12,7 @@
 <!-- navbar-->
       <nav class="navbar">
            <ul class="navbar-container">
-               <li class="navbar-item"><a class="navbar-link" href="#Actu">L'Actu</a></li>
+               <li class="navbar-item"><a class="navbar-link" href="#actu">L'Actu</a></li>
                <li class="navbar-item"><a class="navbar-link" href="#shorts">Wild Shorts</a></li>
                <li class="navbar-item"><img id="logo" src="Assets/logo wild.jpg" alt="logo wild"/></li>
                <li class="navbar-item"><a class="navbar-link" href="#interview">Interview</a></li>
@@ -22,7 +22,8 @@
   <!-- fin navbar-->
     <!-- article à la une -->
     <main class="main">
-        <article class="articleALaUne" id="Actu">
+        <div class="ancre" id="actu"></div>
+        <article class="articleALaUne">
             <div class="wild-post-logo-holder">
                 <img src="Assets/The.png" class= "wild-post-logo">
             </div>
@@ -42,9 +43,10 @@
             </p>
         </article>
     </main>
+    <div class="ancre" id="shorts"></div>
     <!-- fin article à la une -->
     <!-- Caroussel petits articles début-->
-    <section class= "caroussel" id="shorts">
+    <section class= "caroussel">
         <div class= "box-container">
             <div class= "article-container">
             <img src= "Assets/Semaine.png" alt="Un emploi du temps de Wilder" class="imageCaroussel">
@@ -125,7 +127,9 @@
     <!-- Caroussel petits articles fin-->
 
     <!-- contient notre interview -->
-    <article class="articleInterview" id="interview">
+    <div class="ancre" id="interview"></div>
+    
+    <article class="articleInterview">
         <h1 class="titreInterview">L'interview du mois</h1>
         <img class="imageInterview" src="/Images/Justine.png" alt="Nom de la personne interviewée">
         <p class="textInterview">Qui de mieux pour vous  parler de la wild qu’une alumni ? Justine, développeuse front-end chez Da Team nous fait part de son expérience à la Wild Code School de Reims.
@@ -148,8 +152,8 @@
     <!-- fin article ecosysteme -->
     
     <!--Formulaire Début-->
-
-    <h2 class="h2Contact" id="contact">Contactez-nous</h2>
+<div class="ancre" id="contact"></div>
+    <h2 class="h2Contact" >Contactez-nous</h2>
 
     <form class="formContainer"
             action="https://formspree.io/f/xyylvdrk"

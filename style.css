@@ -80,8 +80,6 @@ body {
     transition: background-color .3s, color .3s;
 }
 
-
-
 #logo {
     height: 2.5rem;
     position: absolute;
@@ -338,7 +336,11 @@ label{
 body {
     margin-bottom: 0;
 }
-    
+
+.ancre {
+    height: 1.8rem;
+}
+
 /* Logo */
 
 .wild-post-logo-holder {
