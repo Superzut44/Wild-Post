@@ -341,6 +341,21 @@ label{
         height: 30vh;
         width: auto;
     }
+
+    /* à la une */
+
+    .group-holder {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .imageALaUne {
+        display: inline;
+        align-self: center;
+        width: 95vh;
+        height: auto;
+    }
         
     /* Wild shorts */
 
