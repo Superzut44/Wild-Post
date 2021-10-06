@@ -366,7 +366,8 @@ label{
     width: 100%;
     box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
     min-width: 90%;
-    min-height: 20vh;
+    min-height: 20vh; 
+}
     
 #article-container-tem {
     display: flex;
@@ -418,7 +419,7 @@ label{
     background-color: #ED6C6D;
 }
 .logo{
-    height: 40px;
+    height: 30px;
     margin-left: 1rem;
 }
 
