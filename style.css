@@ -121,7 +121,7 @@ body{
  
  .caroussel-image {
      width: 100%;
-     box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
+     box-shadow: 10px 10px 5px rgb(241, 228, 216)0;
      min-width: 90%;
      min-height: 20vh;
  }
@@ -370,7 +370,7 @@ label{
 
     .caroussel-image {
         width: 100%;
-        box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
+        box-shadow: 10px 10px 5px rgb(241, 228, 216)0;
         min-width: 90%;
         min-height: 20vh; 
     }
