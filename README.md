@@ -2,8 +2,8 @@
 
 Une version Remoise du journal The Wild post.
 Des articles, des interviews et 
-des photos de notre promo 
-et de nos premiéres semaines a la wild.
+des photos de notre promo.
+Projet realisé lors des semaines trois et quatre de notre formation de developpeur web a la wild code school.
 
 ## Authors
 
