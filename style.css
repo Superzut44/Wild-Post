@@ -20,7 +20,6 @@ a {
 
 body{
     background-color: #FFF7F0;
-    /* max-width: 100%;     en doublon            */
     font-family: 'Roboto';
     max-width: 100%;
 }
@@ -116,6 +115,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: justify;
+    text-indent: 3rem;
 }
 /* end ALaUne */
 
@@ -222,7 +222,6 @@ body {
     justify-content: center;
     padding: 1rem;
     padding-top: 4rem;
-    border-top: solid 6vh #ED6C6D;
 }
 
 #logoQL {
@@ -243,6 +242,7 @@ body {
     text-align: justify;
     margin-left: 1rem;
     margin-right: 1rem;
+    text-indent: 3rem;
 }
 
 /* Form */
@@ -272,13 +272,11 @@ form div{
 
 .inputForm  {
     padding: 0.3rem;
-    border-radius: 10%;
     width: 100%;
     height: 1.5rem;
 }
 
 #formTextarea{
-    border-radius: 3%;
     padding: 0.3rem;
     border: solid 1.5px black;
     resize: none;
@@ -407,6 +405,7 @@ form div{
 .pALaUne {
     font-size: 1.25rem;
     padding: 1rem 7rem 1rem 7rem;
+    font-size: 1.2rem;
 }
     
 /* Wild shorts */
@@ -512,11 +511,7 @@ form div{
 
 /* QL article */
 
-.articleQl {
-    display: inline-block;
-    align-self: center;
-    padding: 3rem;
-}
+
 #logoQL {
         display: block;
         align-self: center;
@@ -529,7 +524,6 @@ form div{
         flex-direction: row-reverse;
         padding: 3rem;
         padding-top: 4rem;
-        border-top: solid 6vh #ED6C6D;
     }
 
     .articleQl {
@@ -542,6 +536,7 @@ form div{
     .textQL {
         display: flex;
         flex-direction: column;
+        font-size: 1.25rem;
 
     }
 
