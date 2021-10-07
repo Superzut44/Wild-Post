@@ -20,7 +20,6 @@ a {
 
 body{
     background-color: #FFF7F0;
-    /* max-width: 100%;     en doublon            */
     font-family: 'Roboto';
     max-width: 100%;
 }
@@ -116,6 +115,7 @@ body {
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: justify;
+    text-indent: 3rem;
 }
 /* end ALaUne */
 
@@ -191,20 +191,20 @@ body {
 
 .articleInterview {
     margin: 0.5rem;
-    padding: 0.5rem;
+    padding: 1rem 2rem;
     border: 4px solid #ED6C6D;
     border-radius: 30px 30px 30px 30px;
 }
 .titreInterview {
     height: auto;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.7rem;
     text-align: center;
 }
 .imageInterview {
     width: 40vw;
     height: auto;
     float: left;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.4rem;
     margin-right: 1rem;
     box-shadow: 0.2rem 0.2rem 0.2rem 0 #ED6C6D ;
 }
@@ -228,7 +228,6 @@ body {
     justify-content: center;
     padding: 1rem;
     padding-top: 4rem;
-    
 }
 
 #logoQL {
@@ -249,6 +248,7 @@ body {
     text-align: justify;
     margin-left: 1rem;
     margin-right: 1rem;
+    text-indent: 3rem;
 }
 
 /* Form */
@@ -283,13 +283,11 @@ form div{
 
 .inputForm  {
     padding: 0.3rem;
-    border-radius: 10%;
     width: 100%;
     height: 1.5rem;
 }
 
 #formTextarea{
-    border-radius: 3%;
     padding: 0.3rem;
     border: solid 1.5px black;
     resize: none;
@@ -400,7 +398,7 @@ form div{
     display: block;
     align-self: center;
     width: 65vw;
-    box-shadow: 10px 10px 5px rgb(241, 228, 216);
+    box-shadow: 5px 5px 5px rgb(241, 228, 216);
 }
 
 .articleALaUne {
@@ -411,12 +409,14 @@ form div{
 }
 
 .h1ALaUne {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 3rem 2rem 2rem 2rem;
 }
 
 .pALaUne {
+    font-size: 1.25rem;
     padding: 1rem 7rem 1rem 7rem;
+    font-size: 1.2rem;
 }
     
 /* Wild shorts */
@@ -491,8 +491,8 @@ form div{
 /* start Interview @media*/
 
 .articleInterview {
-    margin: 8rem;
-    padding: 1rem;
+    margin: 2rem;
+    padding: 4rem;
     border: 4px solid #ED6C6D;
     border-radius: 30px 30px 30px 30px;
     height: 45vh;
@@ -502,29 +502,27 @@ form div{
     font-size: 2rem;
     width: max-content;
     height: auto;
-    padding-left: 3rem;
-    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 3rem;
     text-align: center;
 }
   
 .imageInterview {
-    height: 40vh;
+    height: 30vh;
     width: auto;
-    margin-right: 1rem;
+    margin-right: 4rem;
+    box-shadow: 1vh 1vh 1vh 0 #ED6C6D ;
 }
   
 .textInterview, .imageInterview {
     font-size: 1.25rem;
     vertical-align:middle;
+    
 }
 
 /* QL article */
 
-.articleQl {
-    display: inline-block;
-    align-self: center;
-    padding: 3rem;
-}
+
 #logoQL {
         display: block;
         align-self: center;
@@ -537,7 +535,6 @@ form div{
         flex-direction: row-reverse;
         padding: 3rem;
         padding-top: 4rem;
-
     }
 
     .articleQl {
@@ -550,6 +547,7 @@ form div{
     .textQL {
         display: flex;
         flex-direction: column;
+        font-size: 1.25rem;
 
     }
 
