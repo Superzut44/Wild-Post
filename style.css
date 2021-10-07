@@ -386,6 +386,10 @@ form div{
         height: 1.8rem;
     }
 
+    #interview {
+        height: 4rem;
+    }
+
 /* Logo */
 
 .wild-post-logo-holder {
