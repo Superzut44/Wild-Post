@@ -191,20 +191,20 @@ body {
 
 .articleInterview {
     margin: 0.5rem;
-    padding: 0.5rem;
+    padding: 1rem 2rem;
     border: 4px solid #ED6C6D;
     border-radius: 30px 30px 30px 30px;
 }
 .titreInterview {
     height: auto;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.7rem;
     text-align: center;
 }
 .imageInterview {
     width: 40vw;
     height: auto;
     float: left;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.4rem;
     margin-right: 1rem;
     box-shadow: 0.2rem 0.2rem 0.2rem 0 #ED6C6D ;
 }
@@ -389,7 +389,7 @@ form div{
     display: block;
     align-self: center;
     width: 65vw;
-    box-shadow: 10px 10px 5px rgb(241, 228, 216);
+    box-shadow: 5px 5px 5px rgb(241, 228, 216);
 }
 
 .articleALaUne {
@@ -400,11 +400,12 @@ form div{
 }
 
 .h1ALaUne {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 3rem 2rem 2rem 2rem;
 }
 
 .pALaUne {
+    font-size: 1.25rem;
     padding: 1rem 7rem 1rem 7rem;
 }
     
@@ -480,8 +481,8 @@ form div{
 /* start Interview @media*/
 
 .articleInterview {
-    margin: 8rem;
-    padding: 1rem;
+    margin: 2rem;
+    padding: 4rem;
     border: 4px solid #ED6C6D;
     border-radius: 30px 30px 30px 30px;
     height: 45vh;
@@ -491,20 +492,22 @@ form div{
     font-size: 2rem;
     width: max-content;
     height: auto;
-    padding-left: 3rem;
-    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 3rem;
     text-align: center;
 }
   
 .imageInterview {
-    height: 40vh;
+    height: 30vh;
     width: auto;
-    margin-right: 1rem;
+    margin-right: 4rem;
+    box-shadow: 1vh 1vh 1vh 0 #ED6C6D ;
 }
   
 .textInterview, .imageInterview {
     font-size: 1.25rem;
     vertical-align:middle;
+    
 }
 
 /* QL article */
