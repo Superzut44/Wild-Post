@@ -387,7 +387,7 @@ form div{
     }
 
     #interview {
-        height: 4rem;
+        height: 5rem;
     }
 
 /* Logo */
@@ -562,6 +562,7 @@ form div{
         }
         .h2Contact{
             font-size: 2rem;
+            margin-bottom: 3rem;
         }
   
     /* debut de la partie pc du footer */
