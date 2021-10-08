@@ -1,14 +1,14 @@
 # The Wild Post
 
-Une version Remoise du journal The Wild post.
-Des articles, des interviews et 
-des photos de notre promo.
-Projet realisé lors des semaines trois et quatre de notre formation de developpeur web a la wild code school.
+An iteration of a monthly post of the Wild Code School in Reims, France.
+Articles, interviews surrounding what's going on at the Wild Code School and pictures of our promo.
+Static project made with HTML5 and CSS3 during week 3 and 4 of our web developer course at Wild Code School.
+Mobile first mainly designed for news consumption on mobile devices.
 
 ## Authors
 
 - [@Antoine Leclabart](https://github.com/AntoineLeclabart)
-- [Théo Labetowiez](https://github.com/Cyl07)
+- [@Théo Labetowiez](https://github.com/Cyl07)
 - [@Justine Petit](https://github.com/jp-justine)
 - [@Kevin Bardy](https://github.com/kbardy)
 - [@Théo Drouet](https://github.com/JagerTheo)
@@ -18,7 +18,7 @@ Projet realisé lors des semaines trois et quatre de notre formation de developp
 
   ## Color Reference
 
- | Hex                                                                |
+| Hex                                                                |
 | ------------------------------------------------------------------ |
  ![#ED6C6D](https://via.placeholder.com/10/ED6C6D?text=+) #ED6C6D |
  ![#FFF7F0](https://via.placeholder.com/10/FFF7F0?text=+) #FFF7F0 |
