@@ -2,7 +2,7 @@
 
 An iteration of a monthly post of the Wild Code School in Reims, France.
 Articles, interviews surrounding what's going on at the Wild Code School and pictures of our promo.
-Static project made with HTML5 and CSS3 during week 3 and 4 of our web developer course at Wild Code School.
+Static project made with HTML5 and CSS3 during week 3 and 4 of our web developer course.
 Mobile first mainly designed for news consumption on mobile devices.
 
 ## Authors
