@@ -440,6 +440,7 @@ form div{
         flex-direction: row;
         background-color: #FFF7F0;
         margin-top: 3vh;
+        overflow-y: unset;
     }
 
     .caroussel-image {
