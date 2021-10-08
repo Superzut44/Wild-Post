@@ -135,6 +135,7 @@ body {
      flex-direction: row;
      min-height: 80vh;
      overflow-x: scroll;
+     overflow-y: hidden;
      padding: 1rem;
  }
  
@@ -147,15 +148,8 @@ body {
      padding: 0.7rem;
      box-shadow: #e52f30 0px 5px 15px;
      border: solid 5px #e84344;
+     overflow-y: scroll;
      border-radius: 1%;  
- }
- 
- 
- .caroussel-image {
-     width: 100%;
-     box-shadow: 10px 10px 5px rgb(241, 228, 216)0;
-     min-width: 90%;
-     min-height: 20vh;
  }
  
  .article {
@@ -180,11 +174,11 @@ body {
  }
  
  .imageCaroussel {
-     width: 290px;
+     width: 100%;
  }
 
  .imageCarousselTem {
-     width: 290px;
+     width: 100%;
  }
 
  /* start Interview */
@@ -434,12 +428,12 @@ form div{
 
     .caroussel-image {
         width: 100%;
-        box-shadow: 10px 10px 5pxrgb(241, 228, 216)0;
+        box-shadow: 10px 10px 5px rgb(241, 228, 216);
         min-width: 90%;
         min-height: 20vh;
     }
         
-    #article-container-tem {
+    .article-container-tem {
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
